@@ -38,14 +38,14 @@ def rotify():
     #return rot
 
 win = tk.Tk()
-win.title("Rotifier")
+win.title("ROT13 cipher maker")
 
 frm1 = tk.Frame(master=win)
 frm2 = tk.Frame(master=win)
 
 lbl_txt = tk.Label(master=frm1, text="Your text here: ")
 ent_txt = tk.Entry(master=frm1, w=50)
-btn_rot = tk.Button(master=frm1, text="Rotify the text!", command=rotify)
+btn_rot = tk.Button(master=frm1, text="ROT13-ify the text!", command=rotify)
 lbl_rot = tk.Label(master=frm1)
 
 lbl_txt.grid(row=0, column=0, sticky="e")
